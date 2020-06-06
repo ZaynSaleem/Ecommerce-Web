@@ -1,0 +1,420 @@
+/* Navbar CSS */
+
+.navbar-custom {
+    background-color: white;
+    border-bottom: 1px solid rgb(163, 59, 94);
+}
+
+.navbar-custom a {
+    color: black;
+}
+
+.navbar-custom a:hover {
+    color: rgb(163, 59, 94);
+}
+
+.abc {
+    letter-spacing: 4px;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: black !important;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("Images/toggler.png");
+}
+
+.navbar-custom .navbar-brand {
+    border: 1px solid;
+    /* border-radius: ; */
+    padding: 5px;
+    font-weight: 400;
+    margin: 7px 7px 7px 7px;
+}
+
+.navbar-custom .active {
+    color: rgb(163, 59, 94) !important;
+}
+
+.navbar-custom .nav-link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-custom .navbar-nav {
+    display: flex;
+    justify-content: space-around
+}
+
+.abc {
+    margin: 0 auto;
+}
+
+
+/* Carousel Csss */
+
+.carousel-inner {
+    width: 100%;
+    max-height: 500px !important;
+    opacity: 0.9;
+    border-bottom: 1px solid rgb(163, 59, 94) !important;
+}
+
+.carousel-item h5 {
+    color: black;
+    background-color: blanchedalmond;
+    padding: 7px;
+}
+
+.carousel-inner img {
+    height: 500px
+    /* min-height: 300px !important;
+    max-height: 500px !important; */
+}
+
+
+/* Card */
+
+.card {
+    border-radius: 0px;
+    margin-top: 10px;
+}
+
+.card .card-img-top {
+    height: 300px;
+}
+
+.card-title {
+    /* text-align: center; */
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.card-button {
+    padding: 5px 5px 10px 10px;
+}
+
+.card-button button {
+    border: 1px solid rgb(163, 59, 94) !important;
+    padding: 7px;
+    color: rgb(163, 59, 94);
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.card a {
+    letter-spacing: 5px;
+    float: right;
+    color: black;
+}
+
+.card a:hover {
+    color: rgb(163, 59, 94);
+}
+
+.price {
+    font-size: 16px;
+    color: rgb(145, 14, 14);
+}
+
+.new_arrival h1 {
+    border-left: 2px solid rgb(163, 59, 94) !important;
+    padding-left: 10px;
+    font-weight: 300;
+    /* height: 100px; */
+}
+
+
+/* Footer */
+
+.last-footer {
+    border-top: 1px solid black !important;
+    height: 250px;
+    background-color: transparent;
+}
+
+.footer-logo h2 {
+    font-size: 16px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid;
+    font-weight: 400;
+    margin: 20px 7px 7px 0px;
+}
+
+.footer-text ul {
+    margin-top: 20px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-text ul li {
+    margin-top: 10px;
+    /* padding: 20px; */
+    text-align: center;
+    list-style: none;
+}
+
+.footer-text ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    list-style: none;
+}
+
+.footer-text ul li a:hover {
+    color: rgb(163, 59, 94);
+}
+
+.footer-des {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-weight: 300;
+}
+
+.footer-des a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer-des h4 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.footer-des .fff:hover {
+    color: #3b5998;
+}
+
+.footer-des .twitter:hover {
+    color: rgb(0, 162, 255);
+}
+
+.footer-des .insta:hover {
+    color: #c13584;
+}
+
+.footer-des .whatsapp:hover {
+    color: #128c7e;
+}
+
+.line {
+    border-bottom: 1px solid black !important;
+    width: 100%;
+}
+
+
+/* Products Slider */
+
+.product-slider {
+    width: 100%;
+    max-height: 300px;
+}
+
+.product-slider .banner {
+    height: 40vh;
+    margin-top: 10px;
+}
+
+.product-slider .banner img {
+    height: 40vh;
+    width: 100%;
+    max-height: 300px;
+}
+
+.product-text {
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    word-spacing: 10px;
+    font-weight: 300;
+}
+
+
+/* Side Nav */
+
+.productline {
+    height: 100vh;
+    border-left: 1px solid rgb(228, 221, 221);
+}
+
+.productlinevertical {
+    width: 100%;
+    border-bottom: 1px solid rgb(228, 221, 221);
+}
+
+.side-nav a {
+    color: black;
+    margin-left: 13px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.side-nav a:hover {
+    color: rgb(163, 59, 94);
+}
+
+.side-nav p {
+    letter-spacing: 3px;
+    margin-left: 9px;
+    font-weight: 700;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: rgb(163, 59, 94);
+    /* border: 1px solid rgb(163, 59, 94); */
+    background: transparent;
+    border-radius: 0px;
+}
+
+.product-card {
+    width: 30%;
+}
+
+
+/* About Us */
+
+.about-section h2 {
+    text-align: center;
+    color: rgb(163, 59, 94);
+    font-weight: 300;
+}
+
+.about-text p {
+    text-align: center;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    color: grey;
+    ;
+    /* margin-left: 100px; */
+}
+
+.about-btn a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 35px;
+}
+
+.about-btn a:hover {
+    background-color: rgb(163, 59, 94);
+    color: rgb(228, 221, 221);
+    border-color: white;
+    transition: 1s;
+}
+
+.free-delivery {
+    color: rgb(114, 113, 113);
+}
+
+.Money {
+    color: rgb(114, 113, 113);
+}
+
+.Service {
+    /* margin-left: 20px; */
+    color: rgb(114, 113, 113);
+}
+
+.Checking {
+    color: rgb(114, 113, 113);
+}
+
+
+/*Carosel Media Querry */
+
+@media (max-width:768px) {
+    .carousel-inner img {
+        height: 400px
+    }
+    .carousel-inner {
+        height: 400px !important;
+    }
+}
+
+@media (max-width:686px) {
+    .carousel-inner img {
+        height: 300px
+    }
+    .carousel-inner {
+        height: 300px !important;
+    }
+}
+
+@media (max-width:414px) {
+    .carousel-inner img {
+        height: 200px
+    }
+    .carousel-inner {
+        height: 200px !important;
+    }
+}
+
+
+/* CArd MEdia Querry */
+
+@media (max-width:846px) {
+    .card .card-img-top {
+        height: 200px;
+    }
+}
+
+@media (max-width:768px) {
+    .card .card-img-top {
+        height: 250px;
+    }
+}
+
+
+/* @media (max-width:575px) {
+        .card .card-img-top {
+            height: 250px;
+            width: 250px;
+        }
+    } */
+
+@media (max-width:575px) {
+    .card {
+        width: 300px;
+        margin: 0 auto
+    }
+}
+
+@media (max-width:350px) {
+    .card {
+        width: 250px;
+        margin: 0 auto
+    }
+}
+
+@media (max-width:865px) {
+    .price {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:768px) {
+    .price {
+        font-size: 16px;
+    }
+}
+
+.card_row {
+    margin: 0 auto
+}
+
+.contact-text,
+h3 {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
